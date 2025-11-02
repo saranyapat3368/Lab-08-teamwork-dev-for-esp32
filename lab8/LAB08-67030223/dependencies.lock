@@ -1,0 +1,18 @@
+dependencies:
+  display_component:
+    component_hash: 29dee6547623f04f069ee762670acaef5ccc87bc4d4fe923505257e31b2125b8
+    dependencies: []
+    source:
+      git: https://github.com/pornprompoh/component.git
+      path: .
+      type: git
+    version: 4415f2496b93d6cf2927b96d3d4a008b3b67d717
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+direct_dependencies:
+- display_component
+manifest_hash: 472cdffac1d1fa963e381fb8f81f93b76b61e9d31c319c8c5f529ae07ba94439
+target: esp32
+version: 2.0.0
